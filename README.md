@@ -2,6 +2,7 @@
 
 third nmt system this time in pytorch
 
+TODO clean up & finalize
 
 ### Usage
 
@@ -15,5 +16,5 @@ The data should be pre-tokenized. It should live in two-column `src \t tgt` tsv 
 
 
 **Test a model**
-TODO -- make train data optional
+
 `python seq2seq.py --test /path/to/test/data.tsv --checkpoint your_wd/model.ckpt`
